@@ -1,9 +1,0 @@
-FROM openjdk:17
-
-WORKDIR /app
-
-COPY samplename.java .
-
-RUN javac samplename.java
-
-CMD ["java", "samplename"]
